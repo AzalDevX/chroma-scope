@@ -1,29 +1,72 @@
-# Astro + Tailwind CSS Starter Template
+# ChromaScope
 
-Este es un template minimalista para proyectos con Astro y Tailwind CSS, configurado con modo oscuro por defecto. puedes ver el ejemplo [aquí](https://astro-template.azaldev.com)
+A collaborative TailwindCSS palette explorer & visualizer built with Astro.
 
-## 🚀 Características
+ChromaScope lets you discover, share, and apply custom color palettes for TailwindCSS—instantly previewed on real UI components like cards, charts, lists, and widgets.
 
-- ⚡️ Astro para un rendimiento óptimo
-- 🎨 Tailwind CSS para estilos rápidos y flexibles
-- 🌙 Modo oscuro por defecto
-- 📱 Diseño responsive
+---
 
-## 🛠️ Uso
+## ✨ Features
 
-1. Haz clic en "Use this template" para crear un nuevo repositorio con esta estructura.
-2. Clona tu nuevo repositorio.
-3. Navega al directorio del proyecto e instala las dependencias:
+- 🌈 **Community Palette Gallery:** Browse and contribute palettes via Pull Request.
+- ⚡ **Live Preview:** Click any palette to apply it instantly across the site.
+- 🌓 **Light & Dark Modes:** See every palette in both themes.
+- 🧩 **UI Examples:** Real dashboard components update live—track expenses, view income, analyze categories, and more.
+- 📦 **Easy Export:** Copy ready-to-use Tailwind config for any palette.
 
-   ```bash
-   npm install
+---
 
-## Contributing
+## 🖼️ UI Examples
 
-Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
+Below are the types of UI components that update live with any palette you select:
 
-1. Haz un fork del repositorio.
-2. Crea una nueva rama para tus cambios (`git checkout -b feature/nueva-funcionalidad`).
-3. Realiza los cambios necesarios y haz commits (`git commit -m 'Agrega nueva funcionalidad'`).
-4. Sube los cambios a tu rama (`git push origin feature/nueva-funcionalidad`).
-5. Crea un Pull Request en GitHub y describe los cambios que has hecho.
+- **Expense Overview Card:**  
+  Large card with an image and a title like “Track your expenses”.
+
+- **Expenses Chart:**  
+  Card displaying a bar chart and total expenses for the period.
+
+- **Control Card:**  
+  Card with an image and a motivational headline such as “Gain control”.
+
+- **Categories List:**  
+  Vertical list of categories (Groceries, Household, Travel, Other) with icons and transaction counts.
+
+- **Budgets Card:**  
+  Card with an image and a title like “Create budgets”.
+
+- **Financial Widgets:**  
+  Compact cards showing Income, Expenses, and Savings, each with a small line chart and summary values.
+
+All these components update instantly when you select a new palette, so you can see exactly how your color choices look in a real dashboard layout.
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to get started with **ChromaScope**:
+
+```bash
+git clone https://github.com/yourusername/chromascope.git
+cd chromascope
+npm install
+npm run dev
+```
+Then, open your browser and go to 👉 http://chroma-scope.azaldev.com to explore the app.
+
+---
+
+## 🤝 Contributing
+
+1. Fork the repo & create your palette in `/src/palettes/`.
+2. Open a Pull Request—your palette will appear in the gallery!
+
+---
+
+## License
+
+MIT
+
+---
+
+*Built with [Astro](https://astro.build/) & [TailwindCSS](https://tailwindcss.com/).*
